@@ -41,7 +41,7 @@ const Bio = () => {
         src="../images/logo.png"
         width={50}
         height={50}
-        quality={95}
+        quality={100}
         alt="Profile picture"
       />
       {author?.name && (
@@ -49,15 +49,15 @@ const Bio = () => {
           {author?.summary || null}
           {` This is my blog. `}
           {` Check out my `}
-          <a href={`https://dmxt.org/}`}>
+          <a href={`https://dmxt.org/}`} className={`brand-dmxt`}>
             website
           </a>
           {`. Social media: `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`} className={`link-twitter`}>
+          <a href={`https://twitter.com/${social?.twitter || ``}`} className={`brand-twitter`}>
             twitter
           </a>
             {` and `}
-            <a href={`https://dribbble.com/${social?.dribbble || ``}`} className={`link-dribbble`}>
+            <a href={`https://dribbble.com/${social?.dribbble || ``}`} className={`brand-dribbble`}>
                 dribbble
             </a>
           {`.`}

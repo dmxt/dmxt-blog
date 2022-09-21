@@ -64,6 +64,8 @@
   /* Custom colors */
   --purple: #9775f9;
   --orange: #fa6026;
+  --dribbble: #ea4c89;
+  --twitter: #1da1f2;
 }
 
 /* HTML elements */
@@ -202,7 +204,7 @@ li > ul {
 
 blockquote {
   color: var(--color-text-light);
-  margin-left: calc(-1 * var(--spacing-6));
+  margin-left: calc(1 * var(--spacing-6));
   margin-right: var(--spacing-8);
   padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6);
   border-left: var(--spacing-1) solid var(--color-primary);
@@ -337,14 +339,27 @@ a:focus {
 }
 
 
-/* Custom */
-
-.link-dribbble {
-  color: #ea4c89;
+/******************* Custom *******************/
+.brand-dmxt {
+  color: var(--purple);
 }
 
-.link-twitter {
-  color: #1da1f2;
+.brand-dribbble {
+  color: var(--dribbble);
+}
+
+.brand-twitter {
+  color: var(--twitter);
+}
+
+/* Blog */
+.header-link-home {
+  color: var(--purple);
+}
+
+.blog-post ol,
+.blog-post ul {
+  margin-left: var(--spacing-10);
 }
 
 /* Footer */
