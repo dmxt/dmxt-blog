@@ -14,6 +14,7 @@ const Bio = () => {
     query BioQuery {
       site {
         siteMetadata {
+        siteUrl
           author {
             name
             summary
@@ -46,14 +47,20 @@ const Bio = () => {
       {author?.name && (
         <p>
           {author?.summary || null}
-          {` Check me out on `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            Twitter
+          {` This is my blog. `}
+          {` Check out my `}
+          <a href={`https://dmxt.org/}`}>
+            website
+          </a>
+          {`. Social media: `}
+          <a href={`https://twitter.com/${social?.twitter || ``}`} className={`link-twitter`}>
+            twitter
           </a>
             {` and `}
-            <a href={`https://dribbble.com/${social?.dribbble || ``}`}>
-                Dribbble
+            <a href={`https://dribbble.com/${social?.dribbble || ``}`} className={`link-dribbble`}>
+                dribbble
             </a>
+          {`.`}
         </p>
       )}
     </div>

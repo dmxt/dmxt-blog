@@ -60,6 +60,10 @@
   --color-heading: #1a202c;
   --color-heading-black: black;
   --color-accent: #d1dce5;
+
+  /* Custom colors */
+  --purple: #9775f9;
+  --orange: #fa6026;
 }
 
 /* HTML elements */
@@ -330,4 +334,114 @@ a:focus {
   ol {
     list-style-position: inside;
   }
+}
+
+
+/* Custom */
+
+/* Footer */
+.footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer .footer-right {
+  align-self: self-end;
+}
+
+.footer-right p {
+  margin: 0;
+}
+
+footer {
+  border-top: 2px solid var(--color-accent);
+  margin-top: 4rem;
+  font-family: var(--fontFamily-sans);
+  color: var(--color-text-light);
+  font-size: var(--fontSize-0);
+
+  padding: var(--spacing-3) var(--spacing-0);
+}
+
+.footer-nav ul {
+  list-style: none;
+  margin-top: var(--spacing-0);
+  text-align: right;
+}
+
+.footer-nav li {
+  margin-bottom: var(--spacing-0);
+}
+
+/* Header */
+.bio {
+  /*border-top: 2px solid #ddd;*/
+  /*padding-top: 25px;*/
+  /*border-bottom: 2px solid #ddd;*/
+  /*padding-bottom: 25px;*/
+  font-family: var(--fontFamily-sans);
+}
+
+.main-header-title {
+  font-weight: 600;
+  color: var(--color-text-light);
+}
+
+/* Layout - Article */
+/* Date */
+small.article-date {
+  font-family: var(--fontFamily-sans);
+  font-size: var(--fontSize-0);
+  color: #9a9c9f;
+  font-weight: 300;
+  align-self: self-end;
+}
+
+.article-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: var(--spacing-4);
+}
+
+/* Title */
+.article-header .article-headline {
+  color: var(--color-heading);
+  font-size: var(--fontSize-4);
+  font-weight: 500;
+}
+
+.article-description {
+  font-size: var(--fontSize-1);
+  font-family: sans-serif;
+  color: var(--color-text-light);
+}
+
+article.post-list-item {
+  border-top: 1px solid #f3f3f3;
+  padding-top: var(--spacing-3);
+  padding-bottom: var(--spacing-3);
+}
+
+.post-list-item header {
+  margin-bottom: var(--spacing-3);
+}
+
+
+.main-header {
+  color: #4f5969;
+  font-weight: 600;
+}
+
+.header-title {
+  color: var(--purple);
+}
+
+.link-dribbble {
+  color: #ea4c89;
+}
+
+.link-twitter {
+  color: #1da1f2;
 }

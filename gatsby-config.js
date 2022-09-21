@@ -3,7 +3,7 @@ module.exports = {
     title: `dmxt blog`,
     author: {
       name: `Dana`,
-      summary: `Hello, my name is Dana. I'm a designer and front-end developer based in Miami, FL.`,
+      summary: `Hello, I'm Dana. I'm a designer and front-end developer based in Miami, FL.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
