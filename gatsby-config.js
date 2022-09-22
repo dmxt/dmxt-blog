@@ -6,7 +6,7 @@ module.exports = {
       summary: `Hello! I'm Dana. I'm a designer and front-end developer based in Miami, FL.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://dmxt.org`,
     social: {
       dribbble: `dmxt`,
       twitter: `dmxt`,

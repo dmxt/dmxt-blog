@@ -14,7 +14,7 @@ const Bio = () => {
     query BioQuery {
       site {
         siteMetadata {
-        siteUrl
+          siteUrl
           author {
             name
             summary
@@ -31,6 +31,7 @@ const Bio = () => {
   // Set these values by editing "siteMetadata" in gatsby-config.js
   const author = data.site.siteMetadata?.author
   const social = data.site.siteMetadata?.social
+  const siteUrl = data.site.siteMetadata?.siteUrl
 
   return (
     <div className="bio">
@@ -49,7 +50,7 @@ const Bio = () => {
           {/*{author?.summary || null}*/}
           {`Hello! I'm Dana. This is my blog. Who am I? I'm a designer and front-end developer based in Miami, FL.`}
           {` Check out my `}
-          <a href={`https://dmxt.org/}`} className={`brand-dmxt`}>
+          <a href={`${siteUrl || ``} `} className={`brand-dmxt`}>
             website
           </a>
           {`, `}
