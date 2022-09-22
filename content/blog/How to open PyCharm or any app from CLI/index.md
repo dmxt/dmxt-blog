@@ -1,25 +1,21 @@
 ---
-title: How to execute app in commandline on Mac
+title: How to execute apps in the command line on Mac
 date: "2022-09-21"
-description: "Guide how to set up to to open any app (like WebStorm, VSCode, PyCharm, etc) in current directory through commandline via <code>webstorm .</code>"
+description: "Guide how to set up to to open any app (like WebStorm, VSCode, PyCharm, 
+etc) in current directory through commandline via <code>YourAppName .</code>"
 ---
 
-You'll learn how to set up your system to open any apps (like WebStorm, PyCharm, etc)
-through CLI on MacOS.
-
-<aside>
-💡 We will use WebStorm as an example in this tutorial. With this tutorial, you'll be able to
-execute WebStorm by typing down `webstorm .` on a commandline in a current directory.
-
-</aside>
+You’ll learn how to set up your system to open any apps on command line (like WebStorm, PyCharm, etc.) in current directory
+by executing <code>YourAppName .</code>
 
 ## Here's how
 
-Before we get started, make sure you have the following: 
+<aside class="aside-yellow">💡    <b>Reminder:</b> Your system must have an admin rights to evoke <code>sudo</code>.</aside>
+<aside class="aside-yellow">💡    <b>Note:</b> We will use WebStorm as an example in this tutorial. 
+Your system need to have WebStorm or your chosen app installed. 
+If you want to use your chosen app, replace <code>webstorm</code> and <code>WebStorm.app</code> in every code example
+with your app name.</aside>
 
-💡 <b>Reminder:</b> You need admin rights to evoke <code>sudo</code>.<br>
-💡 Your system have WebStorm installed, or replace `webstorm` and `WebStorm.app` in every code example with your chosen app name.
-We will use WebStorm as an example in this tutorial.
 
 1. Create a new file `webstorm` in `/usr/local/bin/`
 
@@ -27,7 +23,7 @@ We will use WebStorm as an example in this tutorial.
 sudo touch /usr/local/bin/webstorm
 ```
 
-1. Open and paste this to `webstorm` file.
+2. Open and paste this to the `/usr/local/bin/webstorm` file.
 
 ```bash
 sudo vim /usr/local/bin/webstorm
@@ -39,13 +35,13 @@ sudo vim /usr/local/bin/webstorm
 open -na "WebStorm.app" --args "$@"
 ```
 
-1. Make this file executable with chmod
+3. Make this file executable with chmod
 
 ```bash
 sudo chmod +x /usr/local/bin/webstorm
 ```
 
-1. Test if it work by executing to open WebStorm in current dir. 
+4. Test if it works by executing to open WebStorm in current directory. 
 
 ```bash
 webstorm .

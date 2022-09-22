@@ -386,10 +386,17 @@ p {
   font-weight: var(--fontWeight-medium);
 }
 
+.aside-yellow {
+  background: #FAF3DD;
+  padding: var(--spacing-5);
+  border-radius: .3rem;
+  margin-bottom: var(--spacing-5);
+}
+
 /* Code */
 pre[class*="language-"] {
   background: #F7F6F3 !important;
-  border-radius: .25em;
+  border-radius: .3rem;
 }
 
 code[class*="language-"] {
@@ -399,10 +406,10 @@ code[class*="language-"] {
 
 code {
   background: #F7F6F3;
-  padding: .25em;
+  padding: .25em .5em;
   border-radius: .25em;
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-  font-size: .9rem;
+  font-size: .85rem;
 }
 
 .blog-post ol,
