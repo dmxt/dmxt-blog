@@ -46,8 +46,8 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          {author?.summary || null}
-          {` This is my blog. `}
+          {/*{author?.summary || null}*/}
+          {`Hello! I'm Dana. This is my blog. Who am I? I'm a designer and front-end developer based in Miami, FL.`}
           {` Check out my `}
           <a href={`https://dmxt.org/}`} className={`brand-dmxt`}>
             website

@@ -66,6 +66,7 @@
   --orange: #fa6026;
   --dribbble: #ea4c89;
   --twitter: #1da1f2;
+  --gray: #43474A;
 }
 
 /* HTML elements */
@@ -340,6 +341,9 @@ a:focus {
 
 /****************************************************/
 /******************* CUSTOM STYLE *******************/
+::selection {
+  background: #d0c0fd;
+}
 
 .brand-dmxt {
   color: var(--purple);
@@ -353,6 +357,10 @@ a:focus {
   color: var(--twitter);
 }
 
+p {
+  color: var(--gray);
+}
+
 /* Bio */
 .bio {
   border-bottom: 1px solid #dcdbe8;
@@ -364,6 +372,10 @@ a:focus {
   color: black;
 }
 
+.post-list-date {
+  color: var(--gray);
+}
+
 .post-section {
   padding-bottom: var(--spacing-5);
 }
@@ -371,6 +383,7 @@ a:focus {
 /* Blog */
 .header-link-home {
   color: var(--purple);
+  font-weight: var(--fontWeight-medium);
 }
 
 /* Code */
