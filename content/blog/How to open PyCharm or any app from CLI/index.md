@@ -1,53 +1,54 @@
 ---
-title: How to execute PyCharm from CLI
+title: How to execute app in commandline on Mac
 date: "2022-09-21"
-description: "How to open PyCharm in current directory on commandline via <code>pycharm .</code>"
+description: "Guide how to set up to to open any app (like WebStorm, VSCode, PyCharm, etc) in current directory through commandline via <code>webstorm .</code>"
 ---
 
-After you complete this tutorial, you'll be able to execute PyCharm (or any application)
-from CLI by running `pycharm .` to open PyCharm IDE in a current directory.
+You'll learn how to set up your system to open any apps (like WebStorm, PyCharm, etc)
+through CLI on MacOS.
 
 <aside>
-💡 This instruction does not only apply for PyCharm, you can do the same step for any other apps — WebStorm, Notion, any other apps. 
-This instruction uses PyCharm as an example.
+💡 We will use WebStorm as an example in this tutorial. With this tutorial, you'll be able to
+execute WebStorm by typing down `webstorm .` on a commandline in a current directory.
 
 </aside>
 
 ## Here's how
 
-💡 <b>Reminder:</b> You need admin rights to evoke <code>sudo</code>
+Before we get started, make sure you have the following: 
 
-1. Create a new file `pycharm` in `/usr/local/bin/`
+💡 <b>Reminder:</b> You need admin rights to evoke <code>sudo</code>.<br>
+💡 Your system have WebStorm installed, or replace `webstorm` and `WebStorm.app` in every code example with your chosen app name.
+We will use WebStorm as an example in this tutorial.
+
+1. Create a new file `webstorm` in `/usr/local/bin/`
 
 ```bash
-sudo touch /usr/local/bin/pycharm
+sudo touch /usr/local/bin/webstorm
 ```
 
-1. Open and paste this to `pycharm` file.
+1. Open and paste this to `webstorm` file.
 
 ```bash
-sudo vim /usr/local/bin/pycharm
+sudo vim /usr/local/bin/webstorm
 ```
 
 ```bash
 #!/bin/sh
 
-open -na "PyCharm.app" --args "$@"
+open -na "WebStorm.app" --args "$@"
 ```
 
 1. Make this file executable with chmod
 
 ```bash
-sudo chmod +x /usr/local/bin/pycharm
+sudo chmod +x /usr/local/bin/webstorm
 ```
 
-1. Test if it work by executing to open PyCharm in current dir.
+1. Test if it work by executing to open WebStorm in current dir. 
 
 ```bash
-pycharm .
+webstorm .
 ```
 
-It should open PyCharm IDE in a current directory.
-
-Once it opens PyCharm in current direction, then congratulations! 🎉 You got it working. `pycharm .` to open PyCharm IDE in a current directory inside CLI, but you need to set it up first.
-
+WebStorm should get launched in a current directory. Congratulations! 🎉 You got it working.
