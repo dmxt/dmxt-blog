@@ -339,7 +339,7 @@ a:focus {
 }
 
 
-/******************* Custom *******************/
+/******************* Custom style *******************/
 .brand-dmxt {
   color: var(--purple);
 }
@@ -350,6 +350,12 @@ a:focus {
 
 .brand-twitter {
   color: var(--twitter);
+}
+
+/* Bio */
+.bio {
+  border-bottom: 1px solid #dcdbe8;
+  padding-bottom: var(--spacing-5);
 }
 
 /* Blog */
@@ -378,8 +384,8 @@ a:focus {
 }
 
 footer {
-  border-top: 2px solid var(--color-accent);
-  margin-top: 4rem;
+  border-top: 1px solid var(--color-accent);
+  margin-top: var(--spacing-5);
   font-family: var(--fontFamily-sans);
   color: var(--color-text-light);
   font-size: var(--fontSize-0);

@@ -52,14 +52,14 @@ const Bio = () => {
           <a href={`https://dmxt.org/}`} className={`brand-dmxt`}>
             website
           </a>
-          {`. Social media: `}
+          {`, `}
+          <a href={`https://dribbble.com/${social?.dribbble || ``}`} className={`brand-dribbble`}>
+            dribbble
+          </a>
+          {`. and `}
           <a href={`https://twitter.com/${social?.twitter || ``}`} className={`brand-twitter`}>
             twitter
           </a>
-            {` and `}
-            <a href={`https://dribbble.com/${social?.dribbble || ``}`} className={`brand-dribbble`}>
-                dribbble
-            </a>
           {`.`}
         </p>
       )}

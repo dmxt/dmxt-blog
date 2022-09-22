@@ -3,7 +3,7 @@ module.exports = {
     title: `dmxt's blog`,
     author: {
       name: `Dana`,
-      summary: `Hello, I'm Dana. I'm a designer and front-end developer based in Miami, FL.`,
+      summary: `Hello! I'm Dana. I'm a designer and front-end developer based in Miami, FL.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
@@ -116,7 +116,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/dmxt-favicon.png`, // This path is relative to the root of the site.
       },
     },
   ],
