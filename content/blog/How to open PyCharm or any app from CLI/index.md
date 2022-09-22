@@ -11,10 +11,11 @@ by executing <code>YourAppName .</code>
 ## Here's how
 
 <aside class="aside-yellow">💡    <b>Reminder:</b> Your system must have an admin rights to evoke <code>sudo</code>.</aside>
-<aside class="aside-yellow">💡    <b>Note:</b> We will use WebStorm as an example in this tutorial. 
+
+We will use WebStorm as an example in this tutorial. 
 Your system need to have WebStorm or your chosen app installed. 
 If you want to use your chosen app, replace <code>webstorm</code> and <code>WebStorm.app</code> in every code example
-with your app name.</aside>
+with your app name.
 
 
 1. Create a new file `webstorm` in `/usr/local/bin/`
