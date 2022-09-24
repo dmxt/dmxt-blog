@@ -5,8 +5,8 @@ module.exports = {
       name: `Dana`,
       summary: `Hello! I'm Dana. I'm a designer and front-end developer based in Miami, FL.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://dmxt.org`,
+    description: `dmxt's blog on Gatsby`,
+    siteUrl: `https://dmxt.org/`,
     social: {
       dribbble: `dmxt`,
       twitter: `dmxt`,

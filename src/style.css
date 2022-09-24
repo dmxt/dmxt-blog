@@ -295,7 +295,7 @@ a:focus {
 
 .bio {
   display: flex;
-  margin-bottom: var(--spacing-16);
+  margin-bottom: var(--spacing-5);
 }
 
 .bio p {
@@ -361,10 +361,19 @@ p {
   color: var(--gray);
 }
 
+/* Logo */
+.main-heading {
+  font-size: var(--fontSize-4);
+}
+
 /* Bio */
 .bio {
   border-bottom: 1px solid #dcdbe8;
-  padding-bottom: var(--spacing-5);
+  padding-bottom: var(--spacing-5); /* don't work */
+}
+
+.global-wrapper[data-is-root-path="true"] .bio {
+  margin-bottom: var(--spacing-10);
 }
 
 /* Post listing */
