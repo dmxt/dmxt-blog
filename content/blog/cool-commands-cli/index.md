@@ -1,5 +1,5 @@
 ---
-title: Import and add a new layout component on Gatsby
+title: Add a new layout component on Gatsby
 date: "2022-09-24"
 description: "More simple, straight-forward guide to importing and adding a new layout component to a home page or other file. Easier than an official guide."
 tags: Gatsby, React, Development
