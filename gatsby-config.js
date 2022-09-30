@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `dmxt's blog`,
+    title: `dmxt's blog`, //unused
     author: {
       name: `Dana`,
-      summary: `Hello! I'm Dana. I'm a designer and front-end developer based in Miami, FL.`,
+      summary: `Hello! I'm Dana. I'm a designer and front-end developer based in Miami, FL.`, //unused
     },
     description: `dmxt's blog on Gatsby`,
     siteUrl: `https://dmxt.org/`,

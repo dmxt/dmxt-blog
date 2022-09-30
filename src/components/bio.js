@@ -48,16 +48,17 @@ const Bio = () => {
       {author?.name && (
         <p>
           {/*{author?.summary || null}*/}
-          {`Hello! I'm Dana. This is my blog. Who am I? I'm a designer and front-end developer based in Miami, FL.`}
-          {` Check out my `}
+          {`Hello! I'm Dana. I'm a designer and front-end developer based in Miami, FL. This is my blog.`}
+          <br />
+          {`Check out my main `}
           <a href={`${siteUrl || ``} `} className={`brand-dmxt`}>
             website
           </a>
-          {`, `}
+          {` and my portfolio on `}
           <a href={`https://dribbble.com/${social?.dribbble || ``}`} className={`brand-dribbble`}>
             dribbble
           </a>
-          {`. and `}
+          {`. My social media is `}
           <a href={`https://twitter.com/${social?.twitter || ``}`} className={`brand-twitter`}>
             twitter
           </a>
