@@ -15,8 +15,8 @@ I found this simple command that will completely resolve this issue very quickly
 sudo xattr -d com.apple.quarantine "FileName.App"
 ```
 
-## For an example
-I need to run this every time I run my ungoogled-chromium (Yes, I'm that type of person)
+### For an example
+I need to run this every time I run my ungoogled-chromium (Yes, I'm this person)
 and whenever malicious software error pop-up, I run the following
 
 ```bash

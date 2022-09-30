@@ -1,0 +1,5 @@
+TODO add a comment section
+https://www.gatsbyjs.com/docs/how-to/adding-common-features/adding-comments/
+
+TODO styling: fix h1, h2, h3 sizing
+/src/templates/style.css
