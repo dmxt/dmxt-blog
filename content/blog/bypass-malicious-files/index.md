@@ -2,10 +2,9 @@
 title: Bypass malicious files on Mac
 date: "2022-09-30"
 description: "How to bypass malicious file error on Mac with a simple command in a CLI"
-tags: CLI, MacOS
+tags: CLI, Mac
 ---
 
-# How to bypass this error
 Hey guys, time to time I encounter this malicious file error when I install `--cask` app through brew,
 so they throw a malicious file error with no hint of workaround.
 

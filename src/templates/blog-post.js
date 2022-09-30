@@ -1,9 +1,10 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
+//import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import ReactDisqusComments from 'react-disqus-comments';
 
 const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
@@ -26,9 +27,6 @@ const BlogPostTemplate = ({
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
-        <footer>
-          <Bio />
-        </footer>
       </article>
       <nav className="blog-post-nav">
         <ul
@@ -56,6 +54,16 @@ const BlogPostTemplate = ({
           </li>
         </ul>
       </nav>
+      
+      {/* Disqus comment section */}
+      <h2>Comments</h2>
+      <ReactDisqusComments className={`disqus-comment-section`}
+        shortname="dmxt-blog"
+        identifier={post.id}
+        title={post.title}
+        url={post.url}
+        category_id={post.category_id}
+      />,
     </Layout>
   )
 }

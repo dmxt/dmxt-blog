@@ -324,8 +324,8 @@ section h1 {
   font-family: var(--font-heading);
 }
 
-.blog-post-nav ul {
-  margin: var(--spacing-0);
+.blog-post-nav ul li {
+  margin-left: var(--spacing-0);
 }
 
 .gatsby-highlight {
@@ -434,6 +434,11 @@ code {
   margin-left: var(--spacing-5);
 }
 
+/* Disqus comment section */
+.disqus-comment-section {
+  padding-top: var(--spacing-0);
+}
+
 /* Footer */
 .footer-wrapper {
   display: flex;
@@ -459,6 +464,10 @@ footer {
   padding: var(--spacing-3) var(--spacing-0);
 }
 
+footer section {
+  padding-top: 10px;
+}
+
 .footer-nav ul {
   list-style: none;
   margin-top: var(--spacing-0);
@@ -468,4 +477,3 @@ footer {
 .footer-nav li {
   margin-bottom: var(--spacing-0);
 }
-
