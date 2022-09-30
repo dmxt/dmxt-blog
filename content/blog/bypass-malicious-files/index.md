@@ -1,8 +1,8 @@
 ---
 title: Bypass malicious files on Mac
 date: "2022-09-30"
-description: "How to bypass malicious file error on MacOS with a simple command in a CLI"
-tags: CLI, MacOSs
+description: "How to bypass malicious file error on Mac with a simple command in a CLI"
+tags: CLI, MacOS
 ---
 
 # How to bypass this error
