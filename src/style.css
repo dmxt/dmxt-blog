@@ -187,7 +187,8 @@ ol {
 ul li,
 ol li {
   padding-left: var(--spacing-0);
-  margin-bottom: calc(var(--spacing-8) / 2);
+  margin-bottom: calc(var(--spacing-0));
+  margin-left: calc(var(--spacing-4));
 }
 
 li > p {
@@ -311,6 +312,11 @@ a:focus {
 
 .blog-post header h1 {
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
+}
+
+section h1 {
+  font-weight: var(--fontWeight-bold);
+  font-size: var(--fontSize-5);
 }
 
 .blog-post header p {
