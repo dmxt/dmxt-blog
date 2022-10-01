@@ -9,7 +9,9 @@ const Layout = ({ location, children }) => {
   if (isRootPath) {
     header = (
       <h1 className="main-heading">
-        <Link to="/"><span className={`brand-dmxt`}>dmxt's</span> blog</Link>
+        <Link to="/">
+          <span className={`brand-dmxt`}>dmxt's</span> blog
+        </Link>
       </h1>
     )
   } else {
@@ -27,7 +29,7 @@ const Layout = ({ location, children }) => {
       <footer>
         © {new Date().getFullYear()}, dmxt,
         {` `}
-          Built with <a href="https://www.gatsbyjs.com">Gatsby</a>
+        Built with <a href="https://www.gatsbyjs.com">Gatsby</a>
       </footer>
     </div>
   )

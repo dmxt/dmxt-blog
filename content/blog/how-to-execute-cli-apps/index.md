@@ -12,11 +12,10 @@ by executing <code>YourAppName .</code>
 
 <aside class="aside-yellow">💡    <b>Reminder:</b> Your system must have an admin rights to evoke <code>sudo</code>.</aside>
 
-We will use WebStorm as an example in this tutorial. 
-Your system need to have WebStorm or your chosen app installed. 
+We will use WebStorm as an example in this tutorial.
+Your system need to have WebStorm or your chosen app installed.
 If you want to use your chosen app, replace <code>webstorm</code> and <code>WebStorm.app</code> in every code example
 with your app name.
-
 
 1. Create a new file `webstorm` in `/usr/local/bin/`
 
@@ -42,7 +41,7 @@ open -na "WebStorm.app" --args "$@"
 sudo chmod +x /usr/local/bin/webstorm
 ```
 
-4. Test if it works by executing to open WebStorm in current directory. 
+4. Test if it works by executing to open WebStorm in current directory.
 
 ```bash
 webstorm .

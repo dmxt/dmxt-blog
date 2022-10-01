@@ -1,5 +1,5 @@
 ---
-title: Add a new layout component on Gatsby
+title: How to add a new layout component on Gatsby
 date: "2022-09-24"
 description: "More simple, straight-forward guide to importing and adding a new layout component to a home page or other file. Easier than an official guide."
 tags: Gatsby, React, Development
@@ -17,11 +17,7 @@ Here's how you can get started.
 import React from "react"
 
 export default function Section({ children }) {
-  return (
-    <div>
-      {children}
-    </div>
-  )
+  return <div>{children}</div>
 }
 ```
 
@@ -32,8 +28,11 @@ import Section from "../components/section"
 ```
 
 3. Lastly, add the following where it would be visible (in a same file you imported)
+
 ```javascript
-<Section><p>Put anything here.</p></Section>
+<Section>
+  <p>Put anything here.</p>
+</Section>
 ```
 
 All done!
@@ -41,4 +40,4 @@ All done!
 ---
 
 <b>Note</b>: When I tried to follow the official tutorial, they told me to use `export default` function but
-home page `pages/index.js` rejected multiple `export default` calls 
+home page `pages/index.js` rejected multiple `export default` calls

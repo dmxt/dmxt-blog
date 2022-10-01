@@ -55,11 +55,17 @@ const Bio = () => {
             website
           </a>
           {` and my portfolio on `}
-          <a href={`https://dribbble.com/${social?.dribbble || ``}`} className={`brand-dribbble`}>
+          <a
+            href={`https://dribbble.com/${social?.dribbble || ``}`}
+            className={`brand-dribbble`}
+          >
             dribbble
           </a>
           {`. My social media is `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`} className={`brand-twitter`}>
+          <a
+            href={`https://twitter.com/${social?.twitter || ``}`}
+            className={`brand-twitter`}
+          >
             twitter
           </a>
           {`.`}
