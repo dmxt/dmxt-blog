@@ -2,34 +2,31 @@
 title: How to implement a comment section with Disqus on Gatsby
 date: "2022-09-30T19:25:00"
 description: "How to implement Disqus comment section to your Gatsby blog article"
-tags: Gatsby, React, Development
+tags: Gatsby, React, Development, Disqus, Comment
 ---
 
 Some articles don't work at all, so I found this working method to add comment sections to my blog articles. 
 
 
-### 1. Register a new account on Disqus
+# 1. Registering Disqus:
 
-You have to register a new (or pre-existing) account before setup.
-Here's how:
+1. You have to register a new (or pre-existing) account before setup. Link: https://disqus.com/admin/install/
+2. Start configuring Disqus for "Your site" similar to the following:
+![](images/disqus-setting.png)
 
-![](/images/disqus-setting.png)
-
-### Installation:
-#### Install on npm
-
+# 2. Installation:
+**A. Install on `npm`**
 1. Stop `gatsby develop`
-2. Run `react-disqus-comments`
+2. Run `react-disqus-comments` (???)
 3. Run `npm install react-disqus-comments`
 
-#### Install on yarn
-
+**B. Install on `yarn` (preferred)**
 1. Stop `gatsby develop`
 2. Run `yarn add react-disqus-comments`
 
-### 3. Restart your Gatsby site:
+## 3. Restart your Gatsby site:
 
-`gatsby develop` to start your Gatsby dev site
+Run `gatsby develop` to start your Gatsby up and running in localhost.
 
 #### Then add this section where you want the comment section to be. 
 
@@ -53,5 +50,4 @@ Change `shortname` to your selected name on official Disqus, in my example
 ```
 
 ### Restart Gatsby to activate the comment section
-Try re-compiling it by stopping the environment dev, and starting it up via `gatsby develop`; 
-then, your Disqus comment section should show up even on localhost environment.
+Try re-compiling it by stopping the environment dev, and starting it back up, your Disqus comment section should show up even on localhost environment, if correctly configured.
