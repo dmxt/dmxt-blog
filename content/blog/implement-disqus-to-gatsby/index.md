@@ -13,7 +13,7 @@ Some articles don't work at all, so I found this working method to add comment s
 1. You have to register a new (or pre-existing) account before setup. Link: https://disqus.com/admin/install/
 2. Start configuring Disqus for "Your site" similar to the following:
 ![Enter the field: webite name](images/disqus-setting.png)
-Remember the "Wesite Name" field, you'll need it to enter in a config
+Remember the "Wesite Name" field, you'll need it to enter a config down the line:
 
 # 2. Installation:
 **A. Install on `npm`**
