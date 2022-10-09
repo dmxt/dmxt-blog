@@ -64,7 +64,6 @@ const BlogPostTemplate = ({
         url={post.url}
         category_id={post.category_id}
       />
-      ,
     </Layout>
   )
 }
