@@ -4,6 +4,7 @@ date: "2022-09-30T19:25:00"
 updated: "2022-10-09"
 description: "How to implement Disqus comment section to your Gatsby blog article"
 tags: Gatsby, React, Development, Disqus, Comment
+comment: https://jamstack-comments.netlify.app/about/
 ---
 
 I like using Disqus because it's simple to setup and simple for anyone to place a comment.
