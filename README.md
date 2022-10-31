@@ -1,18 +1,12 @@
-<style>
-    .center {
-        text-align: center;
-    }
-</style>
-
-<p class="center">
+<p align="center">
   <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" class="center" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
   </a>
 </p>
-<h1 class="center">
+<h1 align="center">
   dmxt blog on Gatsby
 </h1>
-<p class="center">Open-sourced</p>
+<p align="center">Open sourced</p>
 
 
 
