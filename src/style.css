@@ -14,7 +14,6 @@
   --maxWidth-wrapper: var(--maxWidth-2xl);
   --spacing-px: "1px";
   --spacing-0: 0;
-  --spacing-1: 0.25rem;
   --spacing-2: 0.5rem;
   --spacing-3: 0.75rem;
   --spacing-4: 1rem;
@@ -67,6 +66,10 @@
   --dribbble: #ea4c89;
   --twitter: #1da1f2;
   --gray: #43474A;
+}
+
+:root {
+  --spacing-1: 0.25rem;
 }
 
 /* HTML elements */
