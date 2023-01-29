@@ -7,18 +7,18 @@ tags: Gatsby, React, Development, Webdev
 
 I want to create a simple section component to implement on other page file.
 
-I tried following an [official tutorial](https://www.gatsbyjs.com/docs/how-to/routing/layout-components/) on Gatsby, 
-but their code returned an error (note on bottom of article), 
+I tried following an [official tutorial](https://www.gatsbyjs.com/docs/how-to/routing/layout-components/) on Gatsby,
+but their code returned an error (note on bottom of article),
 so I had to figure it out for myself.
 
 Now you don't have to figure it out as I did now that you're here reading this article. 🥳
 
 Oh by the way, I'm using Gatsby v4.24.1 as of writing.
 
-
 # Let's get started!
 
 #### Create a component file
+
 1. Create a new file at `src/components/section.js`
 
 ```javascript
@@ -37,7 +37,7 @@ export default function Section({ children }) {
 import Section from "../components/section"
 ```
 
-3. Lastly, add the following where you want it to be visible. 
+3. Lastly, add the following where you want it to be visible.
 4. It must be in same file you imported the component (Step 2)
 
 ```javascript
@@ -47,7 +47,8 @@ import Section from "../components/section"
 ```
 
 #### Success
-Once your sample section show up in your desired page. 
+
+Once your sample section show up in your desired page.
 Congratulation. You have successfully completed this tutorial! 🎉
 
 <b>Note</b>: When I tried to follow the official tutorial, they told me to use `export default` function but

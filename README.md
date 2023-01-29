@@ -8,13 +8,10 @@
 </h1>
 <p align="center">Open sourced</p>
 
-
-
-##  Quick start 🚀
+## Quick start 🚀
 
 ### 1. Install Gatsby on your system
 
-    
 1. If you use npm, run: `npm i -g gatsby-cli`
 2. If you use yarn, run: `yarn global add gatsby-cli`
 3. Check if Gatsby CLI is installed correctly by running: `gatsby -v`
@@ -31,10 +28,8 @@ Run the following:
 
     gatsby new my-blog-starter https://github.com/dmxt/dmxt-blog
 
-You can change "my-blog-starter" to your preferred folder name. 
-   
+You can change "my-blog-starter" to your preferred folder name.
 
-       
 ### 3. Start developing on live
 
 Navigate into your new site’s directory and start it up with the following code:
@@ -43,19 +38,17 @@ Navigate into your new site’s directory and start it up with the following cod
 gatsby develop
 ```
 
-* Your site is now running at `http://localhost:8000`
+- Your site is now running at `http://localhost:8000`
 
-* GraphQL is accessible at `http://localhost:8000/___graphql`. You can use this tool to experiment with querying your data.
+- GraphQL is accessible at `http://localhost:8000/___graphql`. You can use this tool to experiment with querying your data.
 
 If you can access your site on that link, then congratulations, you got it working! 🎉
-
 
 ### 4. Open the source code and start editing!
 
 With the power of `gatsby develop` everything will be automatically updated on save.
 
 If it's not working, please open an [issue](https://github.com/dmxt/dmxt-blog/issues) on my repository.
-
 
 ---
 

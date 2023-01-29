@@ -14,7 +14,7 @@ by executing <code>YourAppName .</code>
 
 After installing WebStorm, I can't execute `webstorm .` to open JetBrain's WebStorm in current directory. They don't install commandline support. This fustrated me as VSCode install commandline support on default, you can run `code .` from commandline right away.
 
-This tutorial will walk you to setting it up. After installing WebStorm, I can execute  `webstorm .` to open an IDE in a current directory from commandline.
+This tutorial will walk you to setting it up. After installing WebStorm, I can execute `webstorm .` to open an IDE in a current directory from commandline.
 
 ### We'll be using WebStorm as an example.
 
@@ -27,15 +27,13 @@ This will work for any binary program on your system by just renaming filename a
 If you want to use your chosen app, replace <code>webstorm</code> and <code>WebStorm.app</code> in every code example
 with your app name.
 
-
-
 **Your filename will be your command.** When creating a new file inside `usr/local/bin`, you're creating a command for you to evoke and your command will be your filename. A file `webstorm` will make `webstorm .` executive, a file `winner` will make `winner .` executive.
 
 # Step-to-step guide
 
 We'll be using WebStorm as an example. You can replace it with any other binary files you have installed, just rename the filename (step 1) and the path in a bash script (step 2)
 
-1. Create a new file `webstorm` in `/usr/local/bin/` 
+1. Create a new file `webstorm` in `/usr/local/bin/`
 
 ```bash
 sudo touch /usr/local/bin/webstorm
@@ -65,6 +63,6 @@ sudo chmod +x /usr/local/bin/webstorm
 webstorm .
 ```
 
-WebStorm should get launched in a current directory. 
+WebStorm should get launched in a current directory.
 
 If it did, **congratulations, you got it working!** 🎉

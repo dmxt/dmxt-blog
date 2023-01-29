@@ -55,7 +55,6 @@ const BlogPostTemplate = ({
         </ul>
       </nav>
 
-
       {/* Disqus comment section */}
       <hr />
       <h3>Share your comment here ❤️</h3>
