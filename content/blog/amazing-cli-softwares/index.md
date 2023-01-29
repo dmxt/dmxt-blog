@@ -40,12 +40,14 @@ and get stuff done. It's worth it to learn basic shortcuts and go from there.
 - Ubuntu: `sudo apt-get install vim`
 - Arch: `pacman -U vim`
 
-I cannot emphasize this enough, it's really worth it to learn command line basic before you use vim like:
+I cannot emphasize this enough, it's really worth it to learn command line basic 
+before you use vim like:
 `cd`, `mkdir`, `touch`,`rm`,`rmdir`
 
 You can learn [more terminal commands here](https://www.codecademy.com/learn/learn-the-command-line) and vim basic (like to move around, save, quit, adding new config like enable mouse to navigate around) vim have in-built tutorial to get you started or check out a YouTube video to get you up to speed.
 
-I don't modify my vim like some people like to, I like to keep it plain and simple, and it does the job for me.
+I don't modify my vim like some people like to, I like to keep it plain and simple, 
+and it does the job for me.
 
 ## micro (alternative)
 
