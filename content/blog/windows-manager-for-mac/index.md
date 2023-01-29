@@ -2,8 +2,7 @@
 slug: "/blog/window-manager-on-mac"
 date: "202-07-28"
 description: Windows patented it, but we can have it for macOS!
-title: "Windows manager made me more productive, and for you too!
-
+title: "Windows manager made me more productive, and for you too!"
 ---
 
 # Rectangle
@@ -48,7 +47,7 @@ I configured the following:
 
 I made a screenshot of my Rectangle configuration, personally I use top four.
 
-![](../../images/hookshot-shortcuts-1.png)
+![](\images/hookshot-shortcuts-1.png)
 ![](../../images/hookshot-shortcuts-2.png)
 ![](../../images/hookshot-tidy.png)
 
