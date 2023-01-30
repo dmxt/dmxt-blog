@@ -15,8 +15,8 @@
 ### 1. Install Gatsby on your system
 
     
-1. If you use npm, run: `npm i -g gatsby-cli`
-2. If you use yarn, run: `yarn global add gatsby-cli`
+1. (a) If you use **npm**, run: `npm i -g gatsby-cli`
+2. (b) If you use **yarn**, run: `yarn global add gatsby-cli`
 3. Check if Gatsby CLI is installed correctly by running: `gatsby -v`
 
 ![](content/images/gatsby-version-cli.png)
