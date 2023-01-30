@@ -31,7 +31,7 @@ Run the following:
 
     gatsby new my-blog https://github.com/dmxt/dmxt-blog
 
-You can change `my-blog` to your referred folder name. 
+You can change `my-blog` to your preferred folder name. 
    
 
        
