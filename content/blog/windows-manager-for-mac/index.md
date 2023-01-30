@@ -2,7 +2,7 @@
 slug: "/blog/window-manager-on-mac"
 date: "2022-07-28"
 title: "Windows manager app is MUST have on macOS"
-description: If you use macOS, you must know about this. Windows patented it so Apple can't put it on their system, but we can install an app for it. It makes you so much more productive and effective.
+description: If you use macOS, you must know about this. Windows patented it so Apple can't put it on their system, but we can install a 3rd-party app for it. It makes you so much more productive and effective.
 ---
 
 # Rectangle
@@ -19,13 +19,13 @@ Rectangle is the most amazing windows manager. Pressing ⌘→ or ⌘← to move
 Windows has it all pre-built, but Apple is not allowed to implement it,
 so we have to use 3rd-party-software to simplify our life and be more productive.
 
-#### When I found out about Rectangle, it changed my life significantly and improves productivity and enjoyment.
+###### When I found out about Rectangle, it changed my life significantly and improves productivity and enjoyment.
 
 # Download
 
 https://rectangleapp.com/pro
 
-It has a free trial for 10 days and $9.99 for permanent right.
+It has a free trial for 10 days and $9.99 for permanent license for 3 devices.
 
 ### Reconfiguring Rectangle
 
@@ -43,19 +43,23 @@ I configured the following:
 - **⌘→ (Fill Left)** Move window to left
 - **⌘← (Fill Right**) Move window to right
 - **⌘↑ (Maximize)** Move window to maximized state
-- **⌘↓ (Reverse)** Reverse the window to original state
+- **⌘↓ (Restore)** Reverse (restore) the window to original state
 
 
-### Settings
-I made a screenshot of my Rectangle configuration, personally I mainly use four or few more.
+### My config
+I made a screenshot of my Rectangle configuration, personally I mainly use four (left, right, maximize and restore) and few more:
 
-![](../../images/hookshot-shortcuts-1.png)
-![](../../images/hookshot-shortcuts-2.png)
+![](../../images/hookshoot-move-windows.png)
+![](../../images/hookshot-shortcuts-2-dk.png)
 ![](../../images/hookshot-tidy.png)
+
 
 They have so many cool functions you can find what is useful to be more productive.
 
-If you want gaps between windows, there's a function for it
+If you want gaps between windows, there's a function for it too. 
+
+Hookshot is by far the most powerful windows manager I've ever used, I used many different
+windows manager on all systems. Hookshot is #1 in miy opinion.
 
 ---
 
