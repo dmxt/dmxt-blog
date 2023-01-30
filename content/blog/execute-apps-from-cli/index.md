@@ -7,20 +7,23 @@ etc) in current directory through commandline via <code>YourAppName .</code>"
 
 # What will I learn?
 
-You’ll learn how to set up your system to open any apps on command line (like WebStorm, PyCharm, etc.) in current directory
+You’ll learn how to set up your system to open any apps on command line (like WebStorm, Jetrider, eetfss                  ) in current directory
 by executing <code>YourAppName .</code>
 
-## Why?
+### Why?
 
-After installing WebStorm, I can't execute `webstorm .` to open JetBrain's WebStorm in current directory. They don't install commandline support. This fustrated me as VSCode install commandline support on default, you can run `code .` from commandline right away.
+After installing WebStorm, I can't execute `webstorm .` to open JetBrain's WebStorm in current directory. They don't install commandline support. 
 
-This tutorial will walk you to setting it up. After installing WebStorm, I can execute  `webstorm .` to open an IDE in a current directory from commandline.
+This frustrated me as VSCode install commandline support on default, you can run `code .` from commandline.
 
-### We'll be using WebStorm as an example.
+
+### We'll be using WebStorm as an example
 
 This will work for any binary program on your system by just renaming filename and the directory in a bash script.
 
-# Let's get started
+This tutorial will walk you to setting it up. After installing WebStorm, I can execute  `webstorm .` to open an IDE in a current directory from commandline.
+
+# Let's get started!
 
 <aside class="aside-yellow">💡    <b>Reminder:</b> Your system must have an admin rights to evoke <code>sudo</code>.</aside>
 
