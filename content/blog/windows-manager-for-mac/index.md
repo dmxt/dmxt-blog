@@ -1,6 +1,6 @@
 ---
-slug: "/blog/window-manager-on-mac"
-date: "2022-07-28"
+slug: "/blog/window-manager-for-mac"
+date: "2023-01-29"
 title: "Windows manager app is MUST have on macOS"
 description: If you use macOS, you must know about this. Windows patented it so Apple can't put it on their system, but we can install a 3rd-party app for it. It makes you so much more productive and effective.
 ---
@@ -14,7 +14,7 @@ description: If you use macOS, you must know about this. Windows patented it so 
 First, you need to know that Windows made the exact same concept, but they patented it so
 Apple can't put it on their system.
 
-Rectangle is the most amazing windows manager. Pressing ⌘→ or ⌘← to move a window halfway on either side.
+Hookshot is by far the most powerful windows manager I've ever used, I used many different windows manager on all systems. Hookshot is #1 in miy opinion. Pressing ⌘→ or ⌘← to move a window halfway on either side.
 
 Windows has it all pre-built, but Apple is not allowed to implement it,
 so we have to use 3rd-party-software to simplify our life and be more productive.
@@ -34,7 +34,9 @@ and I'm very happy with this workflow. This config makes most sense and easy to 
 
 It's up to you the way how you like to configure it.
 
-## My configuration
+---
+
+# Configuration
 
 I only use four shortcuts (Fill Left, Fill Right, Maximize and Reverse).
 
@@ -46,7 +48,7 @@ I configured the following:
 - **⌘↓ (Restore)** Reverse (restore) the window to original state
 
 
-### My config
+## My config
 I made a screenshot of my Rectangle configuration, personally I mainly use four (left, right, maximize and restore) and few more:
 
 ![](../../images/hookshoot-move-windows.png)
@@ -56,10 +58,7 @@ I made a screenshot of my Rectangle configuration, personally I mainly use four 
 
 They have so many cool functions you can find what is useful to be more productive.
 
-If you want gaps between windows, there's a function for it too. 
-
-Hookshot is by far the most powerful windows manager I've ever used, I used many different
-windows manager on all systems. Hookshot is #1 in miy opinion.
+If you want gaps between windows, there's a function for it too, and there's many other functions you may find it useful for your workflow.
 
 ---
 
