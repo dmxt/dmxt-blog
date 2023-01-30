@@ -29,9 +29,9 @@ If it's not working, please open an [issue](https://github.com/dmxt/dmxt-blog/is
 
 Run the following:
 
-    gatsby new my-blog-starter https://github.com/dmxt/dmxt-blog
+    gatsby new my-blog https://github.com/dmxt/dmxt-blog
 
-You can change "my-blog-starter" to your preferred folder name. 
+You can change `my-blog` to your referred folder name. 
    
 
        
