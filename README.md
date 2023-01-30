@@ -21,9 +21,10 @@
 
 ![](content/images/gatsby-version-cli.png)
 
+
 **Note:** It does not need to have the exact same version as shown in a screenshot.
 
-If it's not working, please open an [issue](https://github.com/dmxt/dmxt-blog/issues) on my repository or refer to an [official documentation](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli).
+If it doesn't work, follow this [official Gatsby tutorial](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli) to install `gatsby-cli`
 
 ### 2. Pull a repository
 
