@@ -64,9 +64,11 @@
   /* Custom colors */
   --purple: #9775f9;
   --orange: #fa6026;
+  --gray: #43474A;
+
+  /* Social media brand color */
   --dribbble: #ea4c89;
   --twitter: #1da1f2;
-  --gray: #43474A;
 }
 
 /* HTML elements */
