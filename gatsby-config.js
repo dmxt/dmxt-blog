@@ -3,6 +3,7 @@ module.exports = {
     title: `dmxt's blog`, //unused
     author: {
       name: `Dana`,
+      brand: `dmxt`,
       summary: `Hello! I'm Dana. I'm a designer and front-end developer based in Miami, FL.`, //unused
     },
     description: `dmxt's blog on Gatsby`,
