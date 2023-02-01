@@ -122,13 +122,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: var(--fontWeight-bold);
+  font-weight: var(--fontWeight-medium);
   color: var(--color-heading);
 }
 
 h1 {
   font-weight: var(--fontWeight-normal);
-  font-size: var(--fontSize-6);
+  font-size: var(--fontSize-7);
   color: var(--color-heading-black);
 }
 
@@ -312,14 +312,50 @@ a:focus {
   border-radius: 100%;
 }
 
+/* Blog post article */
+
+.blogpost h1 {
+  font-weight: var(--fontWeight-normal);
+  font-size: var(--fontSize-5);
+  color: var(--color-heading-black);
+}
+
+.blogpost h2 {
+  font-weight: var(--fontWeight-medium);
+  font-size: var(--fontSize-4);
+}
+
+.blogpost h3 {
+  font-weight: var(--fontWeight-medium);
+  font-size: var(--fontSize-3);
+}
+
+.blogpost h4 {
+  font-weight: var(--fontWeight-medium);
+  font-size: var(--fontSize-2);
+}
+
+.blogpost h5 {
+  font-weight: var(--fontWeight-normal);
+  font-size: var(--fontSize-1);
+}
+
+.blogpost h6 {
+  font-weight: var(--fontWeight-medium);
+  font-size: var(--fontSize-1);
+}
+
 .blog-post header h1 {
   font-weight: var(--fontWeight-bold);
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
 }
 
+.blog-post h1 {
+  font-weight: var(--fontWeight-medium);
+}
+
 section h1 {
   font-weight: var(--fontWeight-bold);
-  font-size: var(--fontSize-5);
 }
 
 .blog-post header p {
