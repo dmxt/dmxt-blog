@@ -100,6 +100,7 @@ hr {
   background: var(--color-accent);
   height: 1px;
   border: 0;
+  margin-top: var(--spacing-8);
 }
 
 /* Heading */
@@ -317,7 +318,7 @@ a:focus {
 .blogpost h1 {
   font-weight: var(--fontWeight-normal);
   font-size: var(--fontSize-5);
-  color: var(--color-heading-black);
+  color: #2e353f;
 }
 
 .blogpost h2 {
@@ -516,3 +517,4 @@ footer section {
 .footer-nav li {
   margin-bottom: var(--spacing-0);
 }
+
