@@ -1,25 +1,29 @@
 ---
-title: Amazing CLI tools you must know
+title: Rare and useful commandline tools you should know
 date: "2022-09-29"
-description: "List of cool command line tools I frequently use. Works on MacOS or any UNIX based system.
+description: "List of cool command line tools I frequently use. Works on any terminal (bash, zsh, fish) on systems mainly on macOS and Linux. Windows if you got it figured out.
 There is some rare gems you absolutely need to know about."
 tags: CLI, UNIX
 ---
-There are some apps you may already know about, and there may be some apps you don't know about. I plan to continuously
-update this article.
+There are some apps you may already know about, and there may be some apps you don't know about. I plan to continuously update this article.
 
 Let me know what app you discovered from this article in a comment section below 😏
 
-### Dear Windows users,
+
+#### Dear Windows users
+**Ignore this section if you don't use Windows**
 
 First of all, you need one good commandline software on your system. Powershell or cmd is not one of them.
 Check out the following and see what you like the most:
 * [cmder](https://cmder.app/) Super simple and nice
 * [mintty](https://mintty.github.io/) Don't be afraid of the website, the software quality is excellent.
 * [New Windows Terminal](https://github.com/microsoft/terminal) by Microsoft, they're making a new commandline.
+* [If you still don't got bash, you can get it from here](https://git-scm.com/downloads) they include git and bash in commandline
 
-Moving on from Windows users now. This blog is about UNIX-based system with a terminal.
-
+# You should have terminal open and running
+At this point of the tutorial, I assume you have a functioning terminal. 
+It doesn't matter what shell you're using, it can be bash, zsh or fish. 
+I like `zsh` personally because of `oh-my-zsh` and all of their crazy plugins.
 # Text editors
 
 ### vim
