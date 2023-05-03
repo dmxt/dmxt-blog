@@ -1,5 +1,5 @@
 ---
-title: Bypass malicious files on Mac
+title: Bypass "malicious files" error on Mac
 date: "2022-09-30"
 description: "How to bypass malicious file error on Mac with a simple command in a CLI"
 tags: CLI, Mac
@@ -9,11 +9,10 @@ Time to time I encounter this malicious file error when I install
 `--cask` app through `brew`, and they throw a malicious file error with 
 no hint of workaround. 
 
-# Here's a fast way to disable the "Malicilous files" pop-up
+# Here's a fast way to disable the "Malicious files" pop-up
 
 I found this simple command that will completely resolve this issue 
-very quickly (1 step fast)
-
+very quickly, there is only one step.
 
 1. Run the following with the app you're having trouble starting:
 ```bash

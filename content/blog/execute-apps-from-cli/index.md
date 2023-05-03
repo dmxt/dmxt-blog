@@ -32,7 +32,7 @@ with your app name.
 
 
 
-**Your filename will be your command.** When creating a new file inside `usr/local/bin`, you're creating a command for you to evoke and your command will be your filename. A file `webstorm` will make `webstorm .` executive, a file `winner` will make `winner .` executive.
+**Your filename will be your command.** When creating a new file inside `usr/local/bin`, you're creating a command for you to evoke and your command will be your filename. A file `webstorm` will make `webstorm .` executive, an app `winner` will make `winner .` executive.
 
 # Step-to-step guide
 
