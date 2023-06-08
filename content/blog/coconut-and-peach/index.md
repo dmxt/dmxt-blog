@@ -1,7 +1,7 @@
 ---
 title: The theory of coconut  and peach
 date: "2023-06-08"
-description: "How to establish relationship between western and eastern world"
+description: "How to establish relationship between western and eastern worlds"
 tags: Business, International, Culture
 ---
 
