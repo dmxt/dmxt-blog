@@ -19,7 +19,7 @@
 2. (b) If you use **yarn**, run: `yarn global add gatsby-cli`
 3. Check if Gatsby CLI is installed correctly by running: `gatsby -v`
 
-![](content/images/gatsby-version-cli.png)
+![](content/img/gatsby-version-cli.png)
 
 
 **Note:** It does not need to have the exact same version as shown in a screenshot.

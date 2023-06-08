@@ -43,8 +43,8 @@ I configured the following:
 
 I made a screenshot of my Rectangle configuration, personally I mainly use four (left, right, maximize and restore) and few more:
 
-![](../../images/rectangle-move-windows.png)
-![](../../images/rectangle.png)
+![](../../img/rectangle-move-windows.png)
+![](../../img/rectangle.png)
 
 They have so much more cool functions you can find what is useful to be more productive.
 

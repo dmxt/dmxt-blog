@@ -36,7 +36,7 @@ and want to modify a file on host, or on Linux with no GUI,
 so it's so much quicker to create a new file, use search function 
 and get stuff done. It's worth it to learn basic shortcuts and go from there.
 
-![vim](../../images/vim.png)
+![vim](../../img/vim.png)
 
 ### How to install vim on:
 
@@ -61,7 +61,7 @@ If `vim` is too complicated for you, `nano` has too weird shortcut then...
 it comes with standard shortcuts like standard GUI editors like 
 press `ctrl+w` to close, `ctrl+s` to save, `ctrl+f` for search function, 
 etc. In additional, it comes with many themes.
-![micro](../../images/micro.png)
+![micro](../../img/micro.png)
 You can [download micro right here](https://micro-editor.github.io/) and get started.
 
 
@@ -80,7 +80,7 @@ If you want to search for any file on your entre system, then `fzf` is a perfect
 All you have to do is run `fzf` and it will list all files you have your system
 and a search function.
 
-![fzf](../../images/fzf.png)
+![fzf](../../img/fzf.png)
 
 #### How to install:
 
@@ -93,7 +93,7 @@ and a search function.
 Very powerful file explorer you can use inside your commandline, and it functions like a regular file 
 explorer. This is useful if you do not have access to GUI file explorer like accessing a server commandline.
 
-![ranger](../../images/ranger.png)
+![ranger](../../img/ranger.png)
 
 #### How to install:
 
