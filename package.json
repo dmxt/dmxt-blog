@@ -10,6 +10,7 @@
   "dependencies": {
     "gatsby": "^4.23.0",
     "gatsby-plugin-feed": "^4.23.0",
+    "gatsby-plugin-google-gtag": "^5.10.0",
     "gatsby-plugin-image": "^2.23.0",
     "gatsby-plugin-manifest": "^4.23.0",
     "gatsby-plugin-sharp": "^4.23.0",
